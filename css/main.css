@@ -1,0 +1,156 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../fonts/poppins-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+            url('../fonts/poppins-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg'); /* Legacy iOS */
+}  
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: 'Poppins';
+    color: #2c3e50;
+}
+
+.wrapper hr {
+    width:100%;
+    height: 2px;
+    border: none;
+    background-color: #2c3e50;
+}
+
+.ranked-list {
+    padding-top:1rem;
+    margin-bottom:2rem;
+}
+
+.ranked-list .item {
+    margin-bottom: 1rem;
+}
+
+.ranked-list .item-title a {
+    font-weight:500;
+    font-size:16px;
+    text-decoration: none;
+    color:#2c3e50;
+}
+
+.ranked-list .item-title a:hover {
+    text-decoration:underline;
+}
+
+.ranked-list .item-details{
+    font-size: 12px;
+    font-weight:500;
+    color: #7f8c8d;
+}
+
+.ranked-list .item-author {
+    display:inline;
+}
+
+.ranked-list .item-author a {
+    text-decoration: none;
+    color:#27ae60;
+}
+
+.ranked-list .item-author a:hover {
+    text-decoration: underline;
+}
+
+.ranked-list .item-time {
+    display:inline;
+}
+
+.pagination {
+    padding-top:1rem;
+    font-weight:500;
+    font-size: 14px;
+}
+
+.pagination a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.pagination a:visited {
+    color:#2c3e50;
+}
+
+.pagination .pagination-older {
+    float:right;
+}
+
+.pagination .pagination-newer {
+    float:left;
+}
+
+
+.footer {
+    font-size: 12px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color:#7f8c8d;
+    font-weight:400;
+    text-align: center;
+}
+
+.header {
+    padding-top:2rem;
+    padding-bottom:1rem;
+    display: inline-block;
+}
+
+.header h1 {
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+
+.header a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration:none;
+}
+
+.header a:visited {
+    text-decoration:none;
+}
+
+.header .site-title {
+    display: inline;
+}
+
+.header .last-build {
+    display: inline;
+    font-size: 12px;
+    font-weight:500;
+}
